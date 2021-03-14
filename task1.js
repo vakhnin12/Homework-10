@@ -7,7 +7,6 @@ const r =  [
 const  generateList = function(arr){
     const result = document.createElement("ul");
     arr.forEach(element => {
-        console.log(element)
         let li = document.createElement("li");
         let value = 0;
         if (Array.isArray(element)){
